@@ -1,5 +1,4 @@
 # online-shop
-this program is an online shop
 
 Project Documentation
 Introduction
@@ -35,7 +34,7 @@ reset_cart_of_customer(int customer_id): Resets the shopping cart of a customer.
 check_out(int customer_id): Checks out a customer, converts the cart to a receipt, and updates the stock.
 sales_report(Date& start_date, Date& end_date): Generates a sales report between two dates.
 show_data(): Displays all the data stored in the store.
-Product 
+Product
 The Product class represents a product in the store. It has attributes such as ID, name, price, brand, and expiration date. The class provides a constructor to initialize the product with these attributes and overloaded operators for printing the product details.
 
 How to Use
@@ -56,12 +55,12 @@ Cart.h
     double get_total_price(): Calculates and returns the total price of all products in the cart.
     void static_use(): Updates the vector of products in the cart by getting the latest vector from the Store.
     void check_out(): Clears the cart.
-  
+
 Date.h
     Constructor:
     Date(unsigned int y, unsigned int m, unsigned int d): Initializes a date object with the given year, month, and day.
     Date(const Date& dateToCopy): Initializes a date object by copying another date object.
-    
+
     Getter and Setter Functions:
     void setYear(unsigned int y): Sets the year of the date.
     unsigned int getYear() const: Returns the year of the date.
@@ -69,7 +68,4 @@ Date.h
     unsigned int getMonth() const: Returns the month of the date.
     void setDay(unsigned int d): Sets the day of the date.
     unsigned int getDay() const: Returns the day of the date.
-    
-    
-  
-1
+
