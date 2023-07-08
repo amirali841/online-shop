@@ -35,7 +35,7 @@ reset_cart_of_customer(int customer_id): Resets the shopping cart of a customer.
 check_out(int customer_id): Checks out a customer, converts the cart to a receipt, and updates the stock.
 sales_report(Date& start_date, Date& end_date): Generates a sales report between two dates.
 show_data(): Displays all the data stored in the store.
-Product
+Product 
 The Product class represents a product in the store. It has attributes such as ID, name, price, brand, and expiration date. The class provides a constructor to initialize the product with these attributes and overloaded operators for printing the product details.
 
 How to Use
